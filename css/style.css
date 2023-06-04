@@ -79,7 +79,6 @@ body {
 
 h1.col {
   color: #6D5200;
-  font-weight: bold;
   text-align: center;
   font-size: 60px;
   font-weight: lighter;
@@ -113,7 +112,6 @@ img.photograph {
 }
 
 h1.mobile {
-  text-align: center;
   color: #6D5200;
   font-weight: lighter;
   text-align: center;
@@ -156,11 +154,4 @@ ul.laptop {
   .fluid-container.mobile {
     display: none;
   }
-
-  main {
-    
-  }
-
 }
-
-
