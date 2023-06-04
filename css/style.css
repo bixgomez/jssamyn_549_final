@@ -1,0 +1,166 @@
+header {
+  border: solid;
+  border-color: #FFAFCC;
+  border-width: 2px;
+  border-radius: 20px;  
+  padding: 10px;
+  margin: 10px;
+  flex: none;
+}
+
+footer {
+  text-align: center;
+  background-color: #D0CA94;
+  padding-top: 2em;
+  padding-bottom: .2em;
+  position: relative;
+  width: 100%;
+  flex: none;
+}
+
+main {
+  flex: 1; 
+}
+
+li {
+  margin: 10px;
+  text-decoration: none;
+}
+
+ul.mobile {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  font-size: 2em;
+  background-color: whitesmoke;
+  font-weight: lighter;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #6D5200;
+  padding: 3px;
+}
+
+a:hover {
+  color: #6D5200;
+  border: solid;
+  border-color: #FFAFCC;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+a:active {
+  color: #ff3399;
+  border: solid;
+  border-color: #FFAFCC;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+.current {
+  color: #ff3399;
+  border: solid;
+  border-color: #FFAFCC;
+  border-radius: 20px;
+  padding: 3px;
+}
+
+img {
+  max-height: 400px;
+  display: flexbox;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1.col {
+  color: #6D5200;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+img.photograph {
+  width: 90%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fluid-container {
+  display: none;
+  margin: auto;
+
+}
+
+.fluid-container.laptop {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.fluid-container.mobile {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: large;
+}
+
+h1.mobile {
+  text-align: center;
+  color: #6D5200;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 90px;
+}
+
+nav.col {
+  display: none;
+}
+
+ul.laptop {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-flex;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 769px) { 
+  
+  nav.col {
+    display: inline;
+  }
+  
+  h1.mobile {
+    display: none;
+  }
+
+  ul.mobile {
+    display: none;
+  }
+
+  .fluid-container {
+    display: block;
+  }
+
+  h1.col {
+    display: block;
+  }
+
+  .fluid-container.mobile {
+    display: none;
+  }
+
+  main {
+    
+  }
+
+}
+
+
